@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV FORM</title>
+    <link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+    <form action="cv.html" id= "form" class="formContainer" onsubmit = "return(FormValidation());">
+        <p style="text-align: center; color:red;">PLEASE FILL THE FORM</p>
+        <div class="inputdata">
+            <label for="first">First</label>
+            <input class="leftinput" type="text" id="first" name="f_name"  placeholder="First Name " >
+            <div class="errors" id="ferror"></div>
+        </div>
+        <div class="inputdata">
+            <label for="middle">Middle</label>
+            <input class="leftinput" type="text" id="middle" name="m_name"  placeholder="Middle Name">
+            <div class="errors" id="merror"></div>
+        </div>
+            <div class="inputdata">
+                <label for="last">Last</label>
+                <input class="leftinput" type="text" id="last" name="l_name" placeholder="Last Name">
+                <div class="errors" id="lerror"></div>
+        </div>
+
+    </div>
+    <div class="inputdata">
+        <label for="email">Email</label>
+        <input class="leftinput" type="email" id="email" name="email"  placeholder="fname.lname@ashesi.edu.gh">
+        <div class="errors" id="emerror"></div>
+        </div>
+
+        <div class="inputdata" >
+            <label for="number">Number</label>
+            <input class="leftinput" type="text" id="number" name="num" placeholder="(country code) 9digits">
+            <div class="errors" id="numerror"></div>
+        </div>
+
+             <div class="inputdata" >
+                <label for="address">Address</label>
+                <input class="leftinput" type="text" id="address" name="Addres" placeholder="Address">
+                <div class="errors" id="aderror"></div>
+             </div>
+
+        <div class="inputdata">
+          <label for="gender">Gender</label>
+          <select class="leftinput" name="gender" id="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+          <div class="errors" id="gerror"></div>
+        </div>
+
+
+    <div >
+        <button class="buttons" type="submit" onclick="storedata()">NEXT</button>
+      </div>
+    </form>
+    
+</body>
+<script src="index.js"></script>
+</html>

@@ -1,0 +1,68 @@
+body {
+	padding: 10px;
+	margin:auto;
+    max-width: 900px;
+}
+
+.box {
+    position: relative; 
+    top: -90px;
+}
+
+.profile {
+    margin: -10px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.left1 {
+    text-align: right;
+    position: relative;
+    bottom: 115px;
+}
+
+.left2 {
+    text-align: right;
+    position: relative;
+    bottom: 40px;
+}
+
+.formContainer {
+    color:blue;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin:auto;
+    text-align: center;
+    width: 40%;
+    border: 10px solid burlywood;
+    margin: 10%;
+    padding: 2%;
+    background-color: antiquewhite;
+}
+
+
+.inputdata {
+    padding-bottom: 25px;
+}
+
+.leftinput {
+    margin-left: 100px;
+    width: 80; 
+    height: 2em;
+    text-align: center;    
+
+}
+
+.buttons {
+    background-color:red;
+     color: black; 
+     font-size: large;
+}
+
+.errors {
+    color: red;
+    font-size: small;
+    font-weight:lighter;
+    margin-left: 140px;
+
+}
